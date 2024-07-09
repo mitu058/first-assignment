@@ -68,11 +68,97 @@ button{
     position:;
     
 }
-
+/* delelopment style */
 .development-section-container{
     width: 741px;
 height: 906px;
 border: 2px solid red;
 margin: 0 auto;
 margin-top: 50px;
+
+}
+
+.development-text-container {
+    width: 553px;
+    height: 74px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.development-text-container h1{
+    font-size: 30px;
+    font-weight: 800;
+    color: rgb(13, 19, 33);
+     margin-bottom: 15px;
+}
+.development-text-container p{
+    font-size: 16px;
+font-weight: 400;
+color: rgb(13, 19, 33);
+
+}
+/* development first section  */
+
+.first-section{
+    width: 614px;
+height: 218px;
+border: 2px solid red;
+ 
+ flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px; 
+}
+
+.text{
+ display: flex;
+}
+
+/* inspiration section */
+.inspiration-section{
+    width: 741px;
+height: 505px;
+
+margin: 0 auto;
+margin-top: 57px;
+}
+
+.inspire-text{
+    width: 553;
+    height: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.inspire-text h1{
+    color: rgb(13, 19, 33);
+    font-size: 28px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.inspire-text p{
+    color: rgb(13, 19, 33);
+    font-size: 15px;
+    font-weight: 400;
+    
+}
+
+iframe{
+    margin: 0 auto;
+    margin-top: 60px;
+    display: flex;
+}
+
+/* current target section style */
+.current-target{
+
 }
