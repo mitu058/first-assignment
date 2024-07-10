@@ -5,7 +5,7 @@
 }
 
 .body{
-    font-family: "Azeret Mono", monospace;
+    font-family: "Azeret Mono"monospace;
 }
 /* banner section style */
 .banner-container{
@@ -15,7 +15,7 @@
     /* margin-top: 20px; */
     border: 2px solid red;
     background-image: url(../assets/Hero-bg.png);
-
+margin-top: 50px;
 }
 
 .banner-content{
@@ -31,50 +31,56 @@
     height: 156px;
     display: flex;
     flex-direction: column;
-    justify-content: center;text-align: center;
+    justify-content: center;
+    text-align: center;
     margin: 0 auto;
     margin-bottom: 20px;
 }
 
-.banner-container > .banner-text h1{
+ .banner-text h1{
    align-items: center;
-    font-size: 31px;
+    font-size: 30px;
     font-weight: 800;
     color:rgb(13, 19, 33);
          margin-bottom: 20px;
+         font-family: Azeret Mono;
 }
 
 .banner-content p{
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 400;
     margin-top: 5px;
+    font-family: Azeret Mono;
 }
 
-button{
-    width: 130px;
-    height: 40px;
-    /* border: none; */
-    border-radius: 5px;
-    background: rgb(13, 19, 33);
-    color: #ffffff;
-    font-size: 13px;
-    cursor: pointer;
+.contact{
+   
+    width: 135px;
+    height: 42px;
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-direction:column;
     justify-content: center;
-    margin: 0 auto;
+    align-items: center;
     padding: 13px 15px 13px 15px;
-    position:;
-    
+    border-radius: 5px;
+margin: 0 auto;
+background: rgb(13, 19, 33);
+color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 13px;
+font-weight: 600;
+text-align: center;
+
 }
+    
+
 /* delelopment style */
 .development-section-container{
     width: 741px;
 height: 906px;
-border: 2px solid red;
 margin: 0 auto;
-margin-top: 50px;
+margin-top: 60px;
+background: rgba(13, 19, 33, 0.02);
 
 }
 
@@ -86,37 +92,87 @@ margin-top: 50px;
     justify-content: center;
     text-align: center;
     margin: 0 auto;
-    margin-top: 40px;
+    /* margin-top: 40px; */
 }
-.development-text-container h1{
-    font-size: 30px;
+.development-text-container h2{
+    font-size: 25px;
     font-weight: 800;
     color: rgb(13, 19, 33);
-     margin-bottom: 15px;
+     margin-top: 50px;
+     font-family: Azeret Mono;
+     
 }
 .development-text-container p{
-    font-size: 16px;
+    font-size: 13px;
 font-weight: 400;
 color: rgb(13, 19, 33);
+margin-top: 15px;
+font-family: Azeret Mono;
 
 }
 /* development first section  */
 
 .first-section{
-    width: 614px;
+    width: 80%;
 height: 218px;
-border: 2px solid red;
- 
- flex-direction: column;
+ display: flex;
+ justify-content: space-between;
+ margin: 0 auto;
+ margin-top: 50px; 
+ background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+ /* padding: 30px; */
+ /* flex-direction: column;
     justify-content: center;
     text-align: center;
     margin: 0 auto;
-    margin-top: 50px; 
+    margin-top: 50px;  */
+} 
+#second{
+    flex-direction: row-reverse ;
+}
+.first-section img{
+    width: 169px;
+height: 140px;
+/* flex-direction: column; */
+display: flex;
+justify-content: center;
+/* text-align: center; */
+margin: 0 auto;
+margin-top: 30px;
 }
 
-.text{
- display: flex;
+.text h4{
+    font-size: 15px;
+font-weight: 700;
+margin-top: 30px;
+margin-left: 40px;
+font-family: Azeret Mono;
+
+
 }
+
+.text p{
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-left: 40px;
+    font-family: Azeret Mono;
+}
+
+.dev-button{
+    width: 97px;
+height: 31px;
+box-sizing: border-box;
+border: 1px solid rgb(13, 19, 33);
+opacity: 0.7;
+display: flex;
+flex-direction: row;
+justify-content: center;
+padding: 7px 13px 7px 13px;
+margin: 20px 40px;
+
+}
+
 
 /* inspiration section */
 .inspiration-section{
@@ -160,5 +216,55 @@ iframe{
 
 /* current target section style */
 .current-target{
+    width: 741px;
+height: 300px;
+border: 2px solid red;
+margin : 0 auto;
+}
 
+.current-target-content{
+    width: 553px;
+height: 74px;display: flex;
+flex-direction: column;
+justify-content: center;
+
+margin: 0 auto;
+}
+.current-target-content h1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 800;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.current-target-content p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 12px;
+    font-weight: 400;
+    margin: 0 auto;
+    margin-bottom: 18px;
+}
+
+.card-one{
+   
+position: static;
+width: 236px;
+height: 195px;
+border: 2px solid red;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+/* padding: 20px; */
+margin-top: 30px;
+border-radius: 10px;
+}
+.card-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
