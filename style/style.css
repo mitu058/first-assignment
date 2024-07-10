@@ -11,11 +11,10 @@
 .banner-container{
     width: 936px;
     height: 423px;
-    margin: 0 auto;
+    margin: 50px auto;
     /* margin-top: 20px; */
-    border: 2px solid red;
     background-image: url(../assets/Hero-bg.png);
-margin-top: 50px;
+padding-bottom: 30px;
 }
 
 .banner-content{
@@ -55,14 +54,14 @@ margin-top: 50px;
 
 .contact{
    
-    width: 150px;
-    height: 48px;
-    display: flex;
-    flex-direction:column;
-    justify-content: center;
-    align-items: center;
-    /* padding: 13px 15px 13px 15px; */
-    border-radius: 5px;
+ width: 150px;
+ height: 48px;
+display: flex;
+flex-direction:column;
+ justify-content: center;
+ align-items: center;
+/* padding: 13px 15px 13px 15px; */
+ border-radius: 5px;
 margin: 0 auto;
 background: rgb(13, 19, 33);
 color: rgb(255, 255, 255);
@@ -70,7 +69,6 @@ font-family: Azeret Mono;
 font-size: 13px;
 font-weight: 600;
 text-align: center;
-margin-bottom: 50px;
 
 }
     
@@ -274,4 +272,67 @@ margin: 20px 0px;
 .card-one-image h1, p{
     font-family: Azeret Mono;
     padding: 5px;
+}
+
+/* support section style */
+.support-conatiner{
+ width: 936px;
+height: 209px;
+border: 2px solid red;
+background-image: url(../assets/handshake.jpg);
+margin: 0 auto;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+margin-top: 50px;
+border-radius: 7px;
+background-blend-mode: overlay;
+background-color: rgba(0, 0, 0, 0.5);
+}
+
+.support-content{
+    height: 67px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 25px 0px;
+}
+
+.support-content h1{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 25px; 
+}
+
+.support-content p{
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 15px;
+font-weight: 400;
+}
+
+.place-text{
+    width: 360px;
+height: 37px;
+margin: 0 auto;
+box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 5px;
+background: rgb(255, 255, 255);
+color: rgba(13, 19, 33, 0.4);
+font-family: Azeret Mono;
+font-size: 18px;
+font-weight: 400;
+}
+.Submit-text{
+ width: 50px;
+height: 37px;
+margin: 0 auto;
+border-radius: 8px;
+background: rgb(255, 255, 255);
+box-sizing: border-box;
+}
+.place-text button{
+    justify-content: space-between;
 }
